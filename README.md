@@ -24,6 +24,7 @@ to produce carbon maps and a summary MRV report.
 
 ## Project Structure
 
+```
 soil-carbon-estimator/
 ├── generate_data.py       # Synthetic satellite + SOC dataset (500 samples)
 ├── carbon_model.py        # Random Forest regression + feature importance
@@ -31,6 +32,7 @@ soil-carbon-estimator/
 ├── carbon_report.py       # MRV-style summary report with carbon stock estimates
 ├── data/                  # Generated dataset
 └── outputs/               # Charts and report outputs
+```
 
 ## Scripts
 
